@@ -18,41 +18,47 @@
 
 <body>
     <main>
-
-        <section class="welcome">
-            <div class="welcome-text">
-                <h1 class="text-bemvindo">Bem-vindo (a) !</h1>
-                <span class="text-center">Crie sua conta para começar.</span>
-                <span>Clique aqui.</span>
+        <div class="div-esquerda">
+            <div>
+                <h1>
+                    Bem-vindo (a) !
+                </h1>
             </div>
-            <button>Criar</button>
-        </section>
+            <div class="message">
+                <span>Crie sua conta para começar</span>
+                <span>Clique aqui</span>
+            </div>
+            <div>
+                <button>Criar</button>
+            </div>
+        </div>
+        <div class="div-direita">
+            <div class="message">
+                <h1>Olá!</h1>
+                <span>Entre na sua conta</span>
+            </div>
 
-        <section>
-            <form>
-                <div class="tittle-login">
-                    <h1>Olá!</h1>
-                    <h4>Entre na sua conta</h4>
-                </div>
 
-                <div class="inputbox">
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" required>
-                    <label for="">Email</label>
-                    <div class="div-img">
-                        <div> </div>
-                        <img src="./icones/icon-email.svg">
+            <div class="formulario">
+                <div class="inputs">
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                        <div class="div-img">
+                            <div> </div>
+                            <img src="./icones/icon-email.svg">
+                        </div>
                     </div>
-                </div>
-                </div>
 
-                <div class="inputbox">
-                    <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input type="password" required>
-                    <label for="">Senha</label>
-                    <div class="div-img">
-                        <div> </div>
-                        <img src="./icones/icon-password.svg">
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Senha</label>
+                        <div class="div-img">
+                            <div> </div>
+                            <img src="./icones/icon-password.svg">
+                        </div>
                     </div>
                 </div>
 
@@ -60,20 +66,17 @@
                     <label for=""><input class="checkbox" type="checkbox"><span class="lembrar">Lembrar</span></label>
                     <a href="#">Esqueceu sua senha?</a>
                 </div>
+            </div>
 
-                <div class="button-enter">
-                   <button>Entrar</button> 
-                </div>
-                
-
+            <div class="footer">
+                <button>Entrar</button>
                 <div class="icon-social">
                     <img src="./icones/github.svg">
                     <img src="./icones/google.svg">
                     <img src="./icones/outlook.svg">
                 </div>
-
-            </form>
-        </section>
+            </div>
+        </div>
     </main>
 </body>
 
