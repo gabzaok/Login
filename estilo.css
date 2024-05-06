@@ -93,6 +93,10 @@ button:hover {
     gap: 10px;
 
 }
+.div-direita .message {
+ 
+ margin-bottom: -20px;
+}
 .formulario {
     padding: 0px;
     margin: 0px;
