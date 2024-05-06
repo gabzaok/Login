@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Entrar</h1>
+
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" required>
+                <label for="">Usuário</label>
+                <div class="div-img">
+                    <div> </div>
+                    <img src="icon-usuario.svg">
+                </div>
+            </div>
+            <div class="inputbox" id="inputemail">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" required>
+                <label for="">Email</label>
+                <div class="div-img">
+                    <div> </div>
+                    <img src="icon-email.svg">
+                </div>
+            </div>
+        </div>
+
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" required>
+                <label for="">Senha</label>
+                <div class="div-img"> 
+                    <div> </div>
+                     <img src="icon-password.svg">
+                </div>
+            </div>
+               
+                
+            <div class="forget">
+                <label for=""><input class="checkbox" type="checkbox"><span class="lembrar">Lembrar</span></label>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <button>Entrar</button>
+            <div class="register"><br>
+                <p>Não tem uma conta? <a href="#" onclick="openSocial()">Criar uma conta</a></p>
+            </div>
+            <div id="social">
+                <img src="icon-google.svg">
+                <img src="icon-outlook.svg">
+                
+            </div>
+
+
+        </form>
+    </section>
+</body>
+</html>

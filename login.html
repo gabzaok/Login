@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Noto+Serif+JP&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="welcome">
+            <div class="welcome-text">
+                <h1 class="text-bemvindo">Bem-vindo (a) !</h1>
+                <span class="text-center">Crie sua conta para começar.</span>
+                <span>Clique aqui.</span>
+            </div>
+            <button>Criar</button>
+        </section>
+
+        <section>
+            <form>
+                <div class="tittle-login">
+                    <h1>Olá!</h1>
+                    <h4>Entre na sua conta</h4>
+                </div>
+
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                    <div class="div-img">
+                        <div> </div>
+                        <img src="./icones/icon-email.svg">
+                    </div>
+                </div>
+                </div>
+
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                    <div class="div-img">
+                        <div> </div>
+                        <img src="./icones/icon-password.svg">
+                    </div>
+                </div>
+
+                <div class="forget">
+                    <label for=""><input class="checkbox" type="checkbox"><span class="lembrar">Lembrar</span></label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                <button>Entrar</button>
+
+                <div class="icon-social">
+                    <img src="./icones/github.svg">
+                    <img src="./icones/google.svg">
+                    <img src="./icones/outlook.svg">
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
