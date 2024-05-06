@@ -139,7 +139,7 @@ h1 {
 }
 
 button {
-    width: 100%;
+    width: 70%;
     height: 40px;
     border-radius: 25px;
     background-color: #fff;
@@ -152,6 +152,19 @@ button {
     transition: all 0.4s ease;
     box-shadow: -2px -2px 5px #00000026,
         2px 2px 5px #00000026;
+}
+.button-enter {
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-enter button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 60px;
 }
 
 button:hover {
